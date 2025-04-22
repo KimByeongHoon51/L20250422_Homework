@@ -1,15 +1,15 @@
 #include "CinematographyDirector.h"
 #include <iostream>
 
-AACinematographyDirector::AACinematographyDirector()
+ACinematographyDirector::ACinematographyDirector()
 {
 }
 
-AACinematographyDirector::~AACinematographyDirector()
+ACinematographyDirector::~ACinematographyDirector()
 {
 }
 
-void AACinematographyDirector::MakeMovie()
+void ACinematographyDirector::MakeMovie()
 {
 	std::cout << "Make Video" << std::endl;
 }

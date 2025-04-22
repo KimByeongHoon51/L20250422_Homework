@@ -1,11 +1,11 @@
 #pragma once
 #include "Director.h"
 
-class AACinematographyDirector : public ADirector
+class ACinematographyDirector : public ADirector
 {
 public:
-	AACinematographyDirector();
-	virtual ~AACinematographyDirector();
+	ACinematographyDirector();
+	virtual ~ACinematographyDirector();
 
 	virtual void MakeMovie() override;
 };
